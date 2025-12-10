@@ -39,14 +39,13 @@ header {
     justify-content: space-between; /* Pushes Name to left, Nav to right */
     align-items: center;
 
-    /* FIX: Added for Safari/iOS support */
-    position: -webkit-sticky; 
-    position: sticky; /* Keeps header at top when scrolling */
-    
+    /* Sticky Header Logic */
+    position: -webkit-sticky; /* Required for Safari/iOS support */
+    position: sticky;         /* Standard sticky positioning */
     top: 0;
     z-index: 1000;
     
-    /* FIX: Cleaned up hidden characters */
+    /* Shadow Effect */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
@@ -178,6 +177,7 @@ footer a {
         width: 95%; /* Use more screen width on mobile */
     }
 }
+
 /* =========================================
    Week 3: Dark Mode & Interactive Styles
    ========================================= */
