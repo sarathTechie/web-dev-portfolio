@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarath Mohanraj - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>SARATH MOHANRAJ</h1>
+        <p>2nd Year B.Tech (IT) Student | Manipal University Jaipur</p>
+        <button id="theme-toggle" class="theme-btn">🌙 Dark Mode</button>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="Photo of Sarath Mohanraj" width="150">
+            <p>
+                Hello! I am a tech-inspired student currently pursuing my B.Tech in Information Technology 
+                at Manipal University Jaipur. I am passionate about technology and always eager 
+                to learn new skills to solve real-world problems.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <p>Technologies I am working with:</p>
+            <ul>
+                <li><strong>Python:</strong> Programming & Scripting</li>
+                <li><strong>C Language:</strong> Logic & Fundamentals</li>
+                <li><strong>HTML & CSS:</strong> Web Development</li>
+                <li><strong>Tech Learning:</strong> Exploring new tools</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out via email: <a href="mailto:sarathmohanraj@yahoo.com">sarathmohanraj@yahoo.com</a></p>
+            
+            <form action="#">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" placeholder="Type your message..." required></textarea><br><br>
+                <p id="form-feedback"></p>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sarath Mohanraj. Built with HTML5.</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
