@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Portfolio | CSS Grid</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__logo">SARATH.DEV</h1>
+            <button id="theme-toggle" class="btn btn--icon" aria-label="Toggle Theme">
+                🌓 Theme
+            </button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero__content fade-in-up">
+            <h2 class="hero__title">Building the <span class="text-highlight">Future</span> with Code</h2>
+            <p class="hero__subtitle">B.Tech IT Student & Full Stack Developer</p>
+            <a href="#projects" class="btn btn--primary">View Work</a>
+        </div>
+    </section>
+
+    <main id="projects" class="portfolio">
+        <h2 class="section-title">Featured Projects</h2>
+        
+        <div class="portfolio-grid">
+            <article class="card">
+                <div class="card__header">
+                    <span class="card__tag">HTML/CSS</span>
+                </div>
+                <div class="card__body">
+                    <h3 class="card__title">Spice & Grill</h3>
+                    <p class="card__desc">A multi-page restaurant website with booking forms.</p>
+                </div>
+                <div class="card__footer">
+                    <button class="btn btn--small">View Project</button>
+                </div>
+            </article>
+
+            <article class="card card--featured">
+                <div class="card__header">
+                    <span class="card__tag">JavaScript</span>
+                </div>
+                <div class="card__body">
+                    <h3 class="card__title">Task Master App</h3>
+                    <p class="card__desc">Interactive To-Do list with local storage and animations.</p>
+                </div>
+                <div class="card__footer">
+                    <button class="btn btn--small">View Project</button>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card__header">
+                    <span class="card__tag">Python</span>
+                </div>
+                <div class="card__body">
+                    <h3 class="card__title">AI Travel Planner</h3>
+                    <p class="card__desc">Smart travel itinerary generator using AI logic.</p>
+                </div>
+                <div class="card__footer">
+                    <button class="btn btn--small">View Project</button>
+                </div>
+            </article>
+
+             <article class="card">
+                <div class="card__header">
+                    <span class="card__tag">Design</span>
+                </div>
+                <div class="card__body">
+                    <h3 class="card__title">Personal Brand</h3>
+                    <p class="card__desc">Identity design and portfolio layout concepts.</p>
+                </div>
+                <div class="card__footer">
+                    <button class="btn btn--small">View Project</button>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Sarath Mohanraj. Built with CSS Grid & BEM.</p>
+    </footer>
+
+    <script src="js/theme-switcher.js"></script>
+</body>
+</html>
