@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="search-section">
+            <h1>🌦️ Weather Dash</h1>
+            <div class="search-box">
+                <input type="text" id="city-input" placeholder="Enter city name (e.g., London)">
+                <button id="search-btn">Search</button>
+            </div>
+            <p id="error-msg" class="error hidden">City not found. Please try again.</p>
+        </header>
+
+        <section id="current-weather" class="weather-card hidden">
+            <div class="weather-header">
+                <h2 id="city-name">City Name</h2>
+                <p id="date">Date</p>
+            </div>
+            <div class="weather-info">
+                <img id="weather-icon" src="" alt="Weather Icon">
+                <div class="temp-container">
+                    <span id="temperature">--</span>°C
+                    <p id="description">--</p>
+                </div>
+                <div class="details">
+                    <p>💧 Humidity: <span id="humidity">--</span>%</p>
+                    <p>💨 Wind: <span id="wind">--</span> m/s</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="forecast-section" class="hidden">
+            <h3>5-Day Forecast</h3>
+            <div id="forecast-grid" class="forecast-grid">
+                </div>
+        </section>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
