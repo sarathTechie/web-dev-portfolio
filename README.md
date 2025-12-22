@@ -1,49 +1,64 @@
+# 🚀 Web Development Learning Journey (Weeks 1-6)
 
-Personal Portfolio Website
-Author: Sarath Mohanraj Role: B.Tech (IT) Student, Manipal University Jaipur Tech Stack: HTML5, CSS3, JavaScript (Vanilla)
+This repository documents my 6-week intensive journey into Web Development, culminating in a personal portfolio website. It covers the fundamentals of the web, from structural HTML to interactive JavaScript.
 
-Project Overview
-This project is a personal portfolio website built from scratch over the course of 3 weeks. It demonstrates a progressive understanding of core web technologies:
+## 📅 Curriculum Breakdown
 
-Week 1: Constructing the structural foundation using Semantic HTML5.
+### **Week 1: HTML5 Foundations**
+* **Focus:** Semantic HTML, Document Structure, Forms, and Tables.
+* **Projects:**
+    * Created a personal bio page.
+    * Built a structured registration form.
+    * Designed a multi-page restaurant menu.
 
-Week 2: Designing the visual presentation and layout using CSS3 & Flexbox.
+### **Week 2: CSS3 Styling & Layouts**
+* **Focus:** Box Model, Flexbox, CSS Grid, and Responsive Design.
+* **Key Learnings:**
+    * Mastering `display: flex` for alignment.
+    * Using Media Queries (`@media`) for mobile responsiveness.
+    * Styling buttons, navigation bars, and cards.
 
-Week 3: Adding interactivity, logic, and state management using JavaScript.
+### **Week 3: JavaScript Fundamentals**
+* **Focus:** Variables, Data Types, Loops, Functions, and Logic.
+* **Projects:**
+    * **Calculator:** A functional JS calculator.
+    * **Grade Checker:** Logic scripts to calculate student grades.
 
-The goal was to create a responsive, accessible, and interactive digital resume without relying on frameworks (like Bootstrap or React).
+### **Week 4: DOM Manipulation & Events**
+* **Focus:** Interacting with HTML elements using JavaScript.
+* **Key Learnings:**
+    * `document.querySelector` and `getElementById`.
+    * Event Listeners (`click`, `submit`, `mouseover`).
+    * Dynamic content updates without page reloads.
 
-Key Features
-HTML5 Structure (Week 1)
-Semantic Markup: Uses header, nav, main, section, and footer for better SEO and accessibility.
+### **Week 5: Advanced JavaScript & APIs**
+* **Focus:** ES6 features, Fetch API, and Asynchronous programming.
+* **Projects:**
+    * **Weather App:** Fetches real-time weather data using a public API.
+    * **To-Do List:** A dynamic task manager with LocalStorage support.
 
-Forms: A contact form implementing proper input types (email, text) for data collection.
+### **Week 6: The Capstone Portfolio**
+* **Focus:** Combining all skills into a professional personal website.
+* **Features:**
+    * Responsive Navigation Bar.
+    * "About Me" and "Skills" sections.
+    * Contact Form with validation.
+    * Hosted and live on the web.
 
-Hyperlinks: Internal anchor links for smooth navigation between "About," "Skills," and "Contact" sections.
+---
 
-CSS3 Styling (Week 2)
-Responsive Design: Fully responsive layout that adapts to mobile screens using Media Queries.
+## 🛠️ Tech Stack
+* **Languages:** HTML5, CSS3, JavaScript (ES6+)
+* **Tools:** VS Code, Git, GitHub
+* **Deployment:** GitHub Pages / Vercel
 
-Flexbox Layout: Used for the navigation bar to ensure proper alignment across devices.
+## 🚀 How to Run Locally
+1.  Clone the repository:
+    ```bash
+    git clone [https://github.com/sarathTechie/web-dev-journey.git](https://github.com/sarathTechie/web-dev-journey.git)
+    ```
+2.  Navigate to the specific week folder (e.g., `cd Week-6-Portfolio`).
+3.  Open `index.html` in your browser.
 
-CSS Variables: Implemented root variables for consistent color management (Theme colors, Spacing).
-
-Interactive UI: Hover effects on buttons and navigation links for better user experience.
-
-JavaScript Interactivity (Week 3)
-Dark Mode Toggle: A fully functional theme switcher that toggles between Light and Dark modes.
-
-Local Storage Persistence: Remembers the user's theme preference (Dark/Light) even after refreshing the page.
-
-Form Validation: Client-side validation prevents empty submissions and ensures valid email formats before sending.
-
-DOM Manipulation: Dynamically updates content and CSS classes based on user actions.
-
-Setup Instructions
-To run this project locally on your machine, follow these steps:
-
-Download the Project: Download the web dev folder or clone the repository.
-
-File Structure Verification: Ensure the images folder contains profile.jpg. Ensure style.css and script.js are in the same folder as index.html.
-
-Launch: Double-click index.html to open it in your default web browser (Chrome, Edge, Firefox, or Safari). Note: No server is required as this is a static site.
+---
+*Developed by Sarath Mohanraj*
